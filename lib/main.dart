@@ -165,7 +165,7 @@ class _MyHomePageState extends State<MyHomePage> {
                         child: SizedBox(
                           //  width: 100,
                           child: TextField(
-                            controller: _nameEdit,
+                          //  controller: _nameEdit,
                             decoration: InputDecoration(
                                 enabledBorder: OutlineInputBorder(
                                   borderSide: BorderSide(
