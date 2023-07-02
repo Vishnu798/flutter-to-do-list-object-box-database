@@ -17,5 +17,9 @@ class DatabaseFun{
   getSingleData(int id){
     return userBox.get(id);
   }
+
+  deleteTask(int id){
+    userBox.remove(id);
+  }
   
 }
